@@ -10,7 +10,7 @@ const int ledPin = D1; // Pin D4 untuk LED
 
 void setup() {
   Serial.begin(115200);
-  pinMode(ledPin, OUTPUT); // Atur pin D4 sebagai output
+  pinMode(ledPin, OUTPUT); // Atur pin D1 sebagai output
   digitalWrite(ledPin, LOW); // Pastikan LED dimatikan saat startup
 
   WiFi.begin(ssid, password);
