@@ -1,12 +1,12 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "ANOS";
-const char* password = "alfarino13";
+const char* ssid = "Nama Wifi";
+const char* password = "Password Wifi";
 
 ESP8266WebServer server(80);
 
-const int ledPin = D4; // Pin D4 untuk LED
+const int ledPin = D1; // Pin D4 untuk LED
 
 void setup() {
   Serial.begin(115200);
