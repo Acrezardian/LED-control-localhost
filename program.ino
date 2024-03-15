@@ -6,7 +6,7 @@ const char* password = "Password Wifi";
 
 ESP8266WebServer server(80);
 
-const int ledPin = D1; // Pin D4 untuk LED
+const int ledPin = D1; // Pin D1 untuk LED
 
 void setup() {
   Serial.begin(115200);
